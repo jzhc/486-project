@@ -1,7 +1,7 @@
 import librosa
 import soundfile as sf
 
-input_file = "office speech noisy.flac" # Replace with your actual file name
+input_file = "plane ambiance.mp3" # Replace with your actual file name
 output_file = "noisy_input.wav"
 
 print(f"Loading and resampling {input_file} to 48kHz...")
