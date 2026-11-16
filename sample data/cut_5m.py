@@ -7,7 +7,7 @@ def cut_first_five_minutes(input_file, output_file):
     audio_data, sample_rate = sf.read(input_file, dtype='float32')
     
     # Calculate the exact number of samples for 5 minutes (300 seconds)
-    end_sample = 300 * sample_rate
+    end_sample = int(300 * sample_rate)
     
     # Slice the array from the beginning to the 5-minute mark
     cut_data = audio_data[:end_sample]

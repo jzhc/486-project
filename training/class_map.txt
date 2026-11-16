@@ -1,0 +1,5 @@
+0	clean_speech
+1	plane_ambiance
+2	emf_static
+3	keyboard_clicks
+4	fan_hum
